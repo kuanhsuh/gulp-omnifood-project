@@ -1,0 +1,37 @@
+.btn:link,
+.btn:visited,
+input[type=submit] {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  font-size: 100%;
+  transition: background-color 0.2s, border 0.2s;
+}
+
+.btn-full:link,
+.btn:visited,
+input[type=submit] {
+  background-color: $primary-orange;
+  border: 1px solid $primary-orange;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid $primary-orange;
+  color: $primary-orange;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: $darker-orange;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  background-color: $darker-orange;
+  color: #fff;
+}

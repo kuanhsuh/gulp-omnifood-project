@@ -1,0 +1,24 @@
+// bower:scss
+@import 'bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+// endbower
+
+
+
+@import 'global/_variables.scss';
+@import 'global/_typography.scss';
+@import 'global/_reset.scss';
+@import 'global/_base.scss';
+
+
+@import 'sections/_header.scss';
+@import 'sections/_features.scss';
+@import 'sections/_meals.scss';
+@import 'sections/_steps.scss';
+@import 'sections/_cities.scss';
+@import 'sections/_testimonials.scss';
+@import 'sections/_plans.scss';
+@import 'sections/_form.scss';
+@import 'sections/_footer.scss';
+
+@import 'modules/_buttons.scss';
+@import 'modules/_icons.scss';

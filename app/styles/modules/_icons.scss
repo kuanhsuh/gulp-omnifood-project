@@ -1,0 +1,18 @@
+.icon-big {
+  font-size: 350%;
+  display: block;
+  color: $primary-orange;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.icon-small {
+  font-size: 110%; 
+  width: 30px;
+  display: inline-block;
+  line-height: 110%;
+  color: $primary-orange;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
